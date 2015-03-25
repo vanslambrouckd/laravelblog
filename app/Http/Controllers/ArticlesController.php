@@ -18,8 +18,9 @@ class ArticlesController extends Controller {
 	 */
 	public function index()
 	{		
-		$articles = Article::all();
-
+		//$articles = Article::all();
+		//$articles = Article::latest()->get();
+		$articles = Article::orderBy('published_at', 'desc')->get();
 		return view('articles.index', compact('articles'));
 	}
 
@@ -30,13 +31,7 @@ class ArticlesController extends Controller {
 	 */
 	public function create()
 	{
-		
-		$article = new Article();
-		$article->title = "article title";
-		$article->body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dui enim, hendrerit a sem nec, pulvinar iaculis sapien. Quisque hendrerit, lectus ac aliquet fermentum, orci neque porta lorem, ac laoreet justo lacus non metus. Ut ac justo sodales, ullamcorper orci eu, egestas velit. Nulla porttitor mauris risus, quis viverra tortor cursus ac. Ut accumsan porta sapien, nec luctus tellus lacinia vel. Fusce varius a dolor et interdum. Proin sit amet rhoncus massa. Quisque eget cursus eros.";
-		$article->excerpt = "Lorem ipsum dolor sit amet";
-		$article->published_at = Carbon::now();
-		$article->save();
+		return view('articles.create');
 	}
 
 	/**
@@ -44,9 +39,14 @@ class ArticlesController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(Request $request)
 	{
-		//
+		$input = $request->all();
+		$input['published_at'] = Carbon::now();
+		//dd($input);
+		Article::create($input);
+
+		return redirect('articles');
 	}
 
 	/**

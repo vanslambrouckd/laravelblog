@@ -13,10 +13,9 @@
 
 Route::get('/', 'WelcomeController@index');
 Route::get('articles', 'ArticlesController@index');
-Route::get('articles/{id}', 'ArticlesController@show');
-
-Route::get('articles/create', 'ArticlesController@create');
-
+Route::get('articles/create', 'ArticlesController@create'); //moet VOOR articles/{id} staan!!
+Route::get('articles/{id}', 'ArticlesController@show'); //volgorde speelt een rol!!
+Route::post('articles', 'ArticlesController@store');
 
 
 Route::get('home', 'HomeController@index');
