@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 
 use App\Article;
+use Carbon\Carbon;
 
 class ArticlesController extends Controller {
 
@@ -33,6 +34,7 @@ class ArticlesController extends Controller {
 		$article = new Article();
 		$article->title = "article title";
 		$article->body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dui enim, hendrerit a sem nec, pulvinar iaculis sapien. Quisque hendrerit, lectus ac aliquet fermentum, orci neque porta lorem, ac laoreet justo lacus non metus. Ut ac justo sodales, ullamcorper orci eu, egestas velit. Nulla porttitor mauris risus, quis viverra tortor cursus ac. Ut accumsan porta sapien, nec luctus tellus lacinia vel. Fusce varius a dolor et interdum. Proin sit amet rhoncus massa. Quisque eget cursus eros.";
+		$article->excerpt = "Lorem ipsum dolor sit amet";
 		$article->published_at = Carbon::now();
 		$article->save();
 	}
@@ -55,7 +57,10 @@ class ArticlesController extends Controller {
 	 */
 	public function show($id)
 	{
-		//
+		
+		$article = Article::findOrFail($id);
+
+		return view('articles.show', compact('article'));
 	}
 
 	/**
