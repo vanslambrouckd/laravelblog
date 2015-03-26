@@ -2,9 +2,367 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49cafde-35f4-4be6-933e-9d24024fbf93" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/articles/form.blade.php" afterPath="$PROJECT_DIR$/resources/views/articles/form.blade.php" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\CNAME" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\dist\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_data\browser-bugs.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_data\core-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_data\glyphicons.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_data\sass-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_data\showcase.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_data\translations.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\ads.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\badges.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\breadcrumbs.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\button-dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\button-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\glyphicons.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\input-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\jumbotron.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\labels.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\list-group.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\media.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\navs.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\page-header.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\panels.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\progress-bars.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\responsive-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\thumbnails.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\components\wells.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\code.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\forms.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\grid.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\images.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\less.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\overview.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\responsive-utilities.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\sass.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\tables.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\css\type.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\customizer-variables.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\footer.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\accessibility.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\browser-device-support.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\community.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\disabling-responsiveness.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\download.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\examples.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\grunt.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\license.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\template.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\third-party-support.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\tools.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\translations.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\getting-started\whats-included.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\header.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\affix.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\modal.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\overview.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\popovers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\tooltips.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\js\transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\nav\about.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\nav\components.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\nav\css.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\nav\customize.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\nav\getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\nav\javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\nav\main.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\nav\migration.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_includes\social-buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_jade\customizer-nav.jade" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_jade\customizer-variables.jade" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_layouts\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_layouts\home.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_plugins\bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\_plugins\bugify.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\about.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\brand\bootstrap-outline.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\brand\bootstrap-punchout.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\brand\bootstrap-solid.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\css\docs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\css\src\anchor.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\css\src\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\css\src\pygments-manni.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\flash\ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\img\components.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\img\devices.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\img\sass-less.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\customize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\docs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\ie-emulation-modes-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\ie8-responsive-file-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\raw-files.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\src\application.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\src\customizer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\vendor\Blob.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\vendor\FileSaver.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\vendor\ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\vendor\anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\vendor\autoprefixer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\vendor\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\vendor\jszip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\vendor\less.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\assets\js\vendor\uglify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\browser-bugs.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\components.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\css.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\customize.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\dist\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\blog\blog.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\blog\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\carousel\carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\carousel\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\cover\cover.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\cover\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\dashboard\dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\dashboard\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\grid\grid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\grid\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\jumbotron-narrow\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\jumbotron-narrow\jumbotron-narrow.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\jumbotron\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\jumbotron\jumbotron.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\justified-nav\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\justified-nav\justified-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\navbar-fixed-top\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\navbar-fixed-top\navbar-fixed-top.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\navbar-static-top\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\navbar-static-top\navbar-static-top.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\navbar\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\navbar\navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\non-responsive\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\non-responsive\non-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\offcanvas\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\offcanvas\offcanvas.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\offcanvas\offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\carousel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\dashboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\equal-height-columns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\grid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\jumbotron-narrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\jumbotron.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\justified-nav.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\navbar-fixed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\navbar-static.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\non-responsive.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\offcanvas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\sign-in.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\starter-template.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\sticky-footer-navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\sticky-footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\screenshots\theme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\signin\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\signin\signin.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\starter-template\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\starter-template\starter-template.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\sticky-footer-navbar\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\sticky-footer-navbar\sticky-footer-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\sticky-footer\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\sticky-footer\sticky-footer.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\theme\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\theme\theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\tooltip-viewport\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\tooltip-viewport\tooltip-viewport.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\examples\tooltip-viewport\tooltip-viewport.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\migration.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\docs\sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\grunt\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\grunt\configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\affix.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\button.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\affix.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\button.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\unit\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\vendor\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\vendor\qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\vendor\qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\affix.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\alert.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\button.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\modal.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\popover.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\tab.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tests\visual\tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\js\transition.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\badges.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\close.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\code.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\media.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\theme.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\type.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\less\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\package.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\test-infra\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\test-infra\S3Cachefile.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\test-infra\npm-shrinkwrap.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\test-infra\requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\test-infra\s3_cache.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\webdev\wamp\www\laravelblog\public\bootstrap\test-infra\uncached-npm-install.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
     </list>
     <ignored path="laravelblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,95 +394,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="680">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state vertical-scroll-proportion="-33.076923" vertical-offset="143" max-vertical-offset="1156">
+              <caret line="59" column="104" selection-start-line="58" selection-start-column="4" selection-end-line="59" selection-end-column="104" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.192308" vertical-offset="228" max-vertical-offset="1598">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.423077" vertical-offset="91" max-vertical-offset="1122">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-              <folding>
-                <element signature="e#44#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticatesAndRegistersUsers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.074074" vertical-offset="1445" max-vertical-offset="2414">
-              <caret line="119" column="48" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="867">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticlesController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.271855" vertical-offset="867" max-vertical-offset="2465">
-              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-              <folding>
-                <element signature="e#39#61#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helpers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846" vertical-offset="816" max-vertical-offset="13362">
-              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/articles/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/articles/form.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.7314906" vertical-offset="143" max-vertical-offset="1156">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -158,7 +442,6 @@
         <option value="$PROJECT_DIR$/app/Article.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/list.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/articles/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/articles/create.blade.php" />
@@ -173,6 +456,7 @@
         <option value="$PROJECT_DIR$/resources/views/articles/form.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
       </list>
     </option>
   </component>
@@ -186,9 +470,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1160" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -265,14 +550,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -284,21 +561,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravelblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravelblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,54 +576,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravelblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravelblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Middleware" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravelblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravelblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,7 +651,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1160" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -451,7 +666,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921028" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24955909" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33368644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -496,14 +711,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_25_144519_create_articles_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
@@ -524,22 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1013">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -878,14 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.074074" vertical-offset="1445" max-vertical-offset="2414">
-          <caret line="119" column="48" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="867">
@@ -904,11 +1087,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.271855" vertical-offset="867" max-vertical-offset="2465">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="867" max-vertical-offset="2465">
           <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
           <folding>
             <element signature="e#39#61#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1039">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56852794" vertical-offset="1429" max-vertical-offset="2414">
+          <caret line="119" column="48" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.076923" vertical-offset="143" max-vertical-offset="1156">
+          <caret line="59" column="104" selection-start-line="58" selection-start-column="4" selection-end-line="59" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7314906" vertical-offset="143" max-vertical-offset="1156">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
