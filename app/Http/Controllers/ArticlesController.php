@@ -17,10 +17,12 @@ class ArticlesController extends Controller {
 	 * @return Response
 	 */
 	public function index()
-	{		
+	{
 		//$articles = Article::all();
 		//$articles = Article::latest()->get();
-		$articles = Article::orderBy('published_at', 'desc')->get();
+
+		//$articles = Article::orderBy('published_at', 'desc')->where('published_at', '<=', Carbon::now())->get();
+        $articles = Article::latest('published_at')->published()->get();
 		return view('articles.index', compact('articles'));
 	}
 
@@ -55,7 +57,6 @@ class ArticlesController extends Controller {
 	 */
 	public function show($id)
 	{
-		
 		$article = Article::findOrFail($id);
 
 		return view('articles.show', compact('article'));
