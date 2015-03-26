@@ -11,6 +11,7 @@ use Carbon\Carbon;
 
 class ArticlesController extends Controller {
 
+
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -36,14 +37,24 @@ class ArticlesController extends Controller {
 		return view('articles.create');
 	}
 
-	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
-	 */
-	public function store(Request $request)
+
+    /**
+     * @param Requests\CreateArticleRequest $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function store(Requests\CreateArticleRequest $request)
+    //public function store(Request $request)
 	{
+        /*
+        $this->validate($request, [
+                'title' => 'required|min:3',
+                'body'  => 'required',
+                'published_at' => 'required|date'
+		]);
+        */
+
 		//dd($input);
+        //validation getriggered via Http/Requests/CreateArticleRequest.php functie rules()
 		Article::create($request->all());
 
 		return redirect('articles');
@@ -55,9 +66,10 @@ class ArticlesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
+
 	public function show($id)
 	{
-		$article = Article::findOrFail($id);
+		$article = Article::findOrFaifunl($id);
 
 		return view('articles.show', compact('article'));
 	}
