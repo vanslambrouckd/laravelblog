@@ -1,3 +1,7 @@
+@extends('layout')
+
+@section('content')
+
 <h1>Create new article</h1>
 
 
@@ -23,12 +27,11 @@
 {!! Form::Close() !!}
 
 @if ($errors->any())
-    <ul class="alert alert-danger">
+    <div class="alert alert-danger">
         @foreach ($errors->all() as $error)
-            <li>{{ $error }}</li>
+            <p>{{ $error }}</p>
         @endforeach
-    </ul>
+    </div>
 @endif
 
-{{ dd($errors) }}
-
+@stop
