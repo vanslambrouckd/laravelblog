@@ -16,4 +16,5 @@ class Article extends Model {
 	'body',
 	'published_at'
 	];
+
 }

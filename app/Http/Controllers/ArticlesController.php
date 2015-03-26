@@ -41,10 +41,8 @@ class ArticlesController extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		$input = $request->all();
-		$input['published_at'] = Carbon::now();
 		//dd($input);
-		Article::create($input);
+		Article::create($request->all());
 
 		return redirect('articles');
 	}
