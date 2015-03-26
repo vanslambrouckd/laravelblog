@@ -32,6 +32,9 @@ class Authenticate {
 	 */
 	public function handle($request, Closure $next)
 	{
+        /*
+         * indien niet ingelogd, toon 401
+         */
 		if ($this->auth->guest())
 		{
 			if ($request->ajax())

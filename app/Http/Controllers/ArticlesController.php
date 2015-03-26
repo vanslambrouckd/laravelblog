@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-
+use Auth;
 
 use App\Article;
 use Carbon\Carbon;
@@ -12,6 +12,14 @@ use Carbon\Carbon;
 class ArticlesController extends Controller {
 
 
+    public function __construct()
+    {
+        //zie App\Http\Kernel.php
+        //$this->middleware('auth'); //op alle routes van articles
+
+        $this->middleware('auth', ['except' => 'index']);
+        //$this->middleware('auth', ['only' => 'create']);
+    }
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -34,6 +42,11 @@ class ArticlesController extends Controller {
 	 */
 	public function create()
 	{
+        /*
+        if ((Auth::guest())) {
+            return redirect('articles');
+        }
+        */
 		return view('articles.create');
 	}
 

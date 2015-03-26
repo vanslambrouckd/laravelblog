@@ -42,4 +42,8 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     public function articles(){
         return $this->hasMany('App\Article'); //name van associate model
     }
+
+    public function isATeamManager(){
+        return true;
+    }
 }

@@ -20,6 +20,26 @@ class AuthController extends Controller {
 
 	use AuthenticatesAndRegistersUsers;
 
+    /*
+    public function getRegister() {
+        return "fdjksql";
+    }
+    */
+    /*
+    public function getFoo(){
+        //
+        //maakt automatisch auth/foo route
+        //doordat je in routes.php Route::controllers gebruikt
+        //
+
+        return 'foobar';
+    }
+
+    public function postBar() {
+        return 'bar';
+    }
+    */
+
 	/**
 	 * Create a new authentication controller instance.
 	 *

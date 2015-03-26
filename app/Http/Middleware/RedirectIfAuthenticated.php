@@ -35,6 +35,10 @@ class RedirectIfAuthenticated {
 	{
 		if ($this->auth->check())
 		{
+            /*
+             * indien ingelogd, moet je bvb de register of login page niet meer kunnen
+             * gebruiken, dus daar kan je die middleware toepassen (en dus redirecten naar /home)
+             */
 			return new RedirectResponse(url('/home'));
 		}
 
