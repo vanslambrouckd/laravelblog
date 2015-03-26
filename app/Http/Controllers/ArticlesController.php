@@ -37,12 +37,11 @@ class ArticlesController extends Controller {
 		return view('articles.create');
 	}
 
-
     /**
-     * @param Requests\CreateArticleRequest $request
+     * @param Requests\ArticleRequest $request
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
-    public function store(Requests\CreateArticleRequest $request)
+    public function store(Requests\ArticleRequest $request)
     //public function store(Request $request)
 	{
         /*
@@ -54,7 +53,7 @@ class ArticlesController extends Controller {
         */
 
 		//dd($input);
-        //validation getriggered via Http/Requests/CreateArticleRequest.php functie rules()
+        //validation getriggered via Http/Requests/ArticleRequest.php functie rules()
 		Article::create($request->all());
 
 		return redirect('articles');
@@ -69,7 +68,7 @@ class ArticlesController extends Controller {
 
 	public function show($id)
 	{
-		$article = Article::findOrFaifunl($id);
+		$article = Article::findOrFail($id);
 
 		return view('articles.show', compact('article'));
 	}
@@ -82,7 +81,8 @@ class ArticlesController extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+        $article = Article::findOrFail($id);
+        return view('articles.edit', compact('article'));
 	}
 
 	/**
@@ -91,10 +91,13 @@ class ArticlesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update($id, Requests\ArticleRequest $request)
 	{
-		//
-	}
+        $article = Article::findOrFail($id);
+        $article->update($request->all());
+
+        return redirect('articles');
+    }
 
 	/**
 	 * Remove the specified resource from storage.

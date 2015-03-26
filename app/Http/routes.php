@@ -12,11 +12,14 @@
 */
 
 Route::get('/', 'WelcomeController@index');
+/*
 Route::get('articles', 'ArticlesController@index');
 Route::get('articles/create', 'ArticlesController@create'); //moet VOOR articles/{id} staan!!
 Route::get('articles/{id}', 'ArticlesController@show'); //volgorde speelt een rol!!
 Route::post('articles', 'ArticlesController@store');
-
+Route::get('articles/{id}/edit', 'ArticlesController@edit');
+*/
+Route::resource('articles', 'ArticlesController'); //dit vervangt al het bovenstaande, resultaat kan je zien via php artisan route:list
 
 Route::get('home', 'HomeController@index');
 
