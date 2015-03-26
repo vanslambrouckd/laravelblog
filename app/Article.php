@@ -13,9 +13,10 @@ class Article extends Model {
 	zodat enkel de vars in $fillable upgedate mogen worden
 	 */
 	protected $fillable = [
-	'title',
-	'body',
-	'published_at',
+        'title',
+        'body',
+        'published_at',
+        'user_id' //temporary
 	];
 
     /*
@@ -46,5 +47,13 @@ class Article extends Model {
     public function setPublishedAtAttribute($date)
     {
         $this->attributes['published_at'] = Carbon::createFromFormat('Y-m-d', $date);
+    }
+
+    /**
+     * An artigle is owned by a user
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function user(){
+        return $this->belongsTo('App\User');
     }
 }

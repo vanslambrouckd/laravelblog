@@ -31,4 +31,15 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 */
 	protected $hidden = ['password', 'remember_token'];
 
+    /**
+     * A user can have many articles
+     * ->articles returns collection
+     * ->articles() returns hasMany
+     *  oproepen via $user->articles->toArray();
+     * $user->articles()->get()->toArray();
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function articles(){
+        return $this->hasMany('App\Article'); //name van associate model
+    }
 }

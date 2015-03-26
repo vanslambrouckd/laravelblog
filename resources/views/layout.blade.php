@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <title>Laravel blog test</title>
-        <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="{{ asset('/bootstrap/dist/css/bootstrap.css') }}">
         <style type="text/css">
         body {
             padding-top:50px;
@@ -39,10 +39,9 @@
                 @yield('footer')
             </footer>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="{{ asset('/js/jquery.min.js') }}"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="/bootstrap/js/tooltip.js"></script>
+        <script src="{{ asset('/bootstrap/dist/js/bootstrap.min.js') }}"></script>
          <script type="text/javascript">
         /* <![CDATA[ */
         $(document).ready(function() {

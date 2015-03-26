@@ -28,11 +28,13 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
+Route::get('users/{id}/articles', 'UsersController@show_articles');
 
 Route::get('contact', 'PagesController@contact');
 Route::get('about', 'PagesController@about');
 Route::get('users', 'UsersController@index');
 Route::get('users/{id}', 'UsersController@show');
+
 
 
 Route::get('test', function() {

@@ -85,4 +85,9 @@ class UsersController extends Controller {
 		//
 	}
 
+    public function show_articles($id){
+        $articles = User::findOrFail($id)->articles;
+        return $articles;
+    }
+
 }
