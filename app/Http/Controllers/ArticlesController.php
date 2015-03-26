@@ -27,6 +27,11 @@ class ArticlesController extends Controller {
 	 */
 	public function index()
 	{
+        if (!Auth::guest()) {
+            //return \Auth::user(); //toont authenticated user
+        }
+
+
 		//$articles = Article::all();
 		//$articles = Article::latest()->get();
 
@@ -67,8 +72,14 @@ class ArticlesController extends Controller {
 
 		//dd($input);
         //validation getriggered via Http/Requests/ArticleRequest.php functie rules()
-		Article::create($request->all());
 
+        $article = new Article($request->all()); //user_id wordt automatisch ingevuld op deze manier
+        Auth::user()->articles()->save($article);
+
+        /*
+        $request['user_id'] = Auth::id();
+        Article::create($request->all());
+        */
 		return redirect('articles');
 	}
 

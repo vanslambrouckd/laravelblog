@@ -3,7 +3,7 @@
 use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\Registrar;
-use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers; //dit is een php trait
 
 class AuthController extends Controller {
 
@@ -18,7 +18,9 @@ class AuthController extends Controller {
 	|
 	*/
 
-	use AuthenticatesAndRegistersUsers;
+	use AuthenticatesAndRegistersUsers; //trait bevat de code
+
+    protected $redirectPath = '/articles'; //zelf toegevoegd
 
     /*
     public function getRegister() {
