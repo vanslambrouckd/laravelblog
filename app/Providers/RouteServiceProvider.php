@@ -23,7 +23,24 @@ class RouteServiceProvider extends ServiceProvider {
 	public function boot(Router $router)
 	{
 		parent::boot($router);
+        //enable route model binding
+        //Route::model(); //Route::model() = facade
 
+        /*
+         * indien route model binding niet werkt,
+         *  moet je php artisan optimize --force uitvoeren
+         *
+         * ondertaande zort dat je ArticlesController\show(Article $article) kan uitvoeren
+         * ipv id door te geven
+         */
+        $router->model('articles', 'App\Article'); //find($id)
+
+        //indien je iets anders dan find via id wil:
+        /*
+        $router->bind('articles', function($id) {
+            return \App\Article::published()->findOrFail($id);
+        });
+        */
 		//
 	}
 
@@ -37,7 +54,7 @@ class RouteServiceProvider extends ServiceProvider {
 	{
 		$router->group(['namespace' => $this->namespace], function($router)
 		{
-			require app_path('Http/routes.php');
+			require app_path('Http/routes.php'); //routes worden vanuit routes.php geladen
 		});
 	}
 

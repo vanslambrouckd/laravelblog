@@ -90,9 +90,10 @@ class ArticlesController extends Controller {
 	 * @return Response
 	 */
 
-	public function show($id)
+	//public function show($id)
+    public function show(Article $article)
 	{
-		$article = Article::findOrFail($id);
+		//$article = Article::findOrFail($id);
 
 		return view('articles.show', compact('article'));
 	}
@@ -103,9 +104,8 @@ class ArticlesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
+	public function edit(Article $article)
 	{
-        $article = Article::findOrFail($id);
         $article->published_at->setToStringFormat('Y-m-d');
 
         return view('articles.edit', compact('article'));
@@ -117,9 +117,8 @@ class ArticlesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id, Requests\ArticleRequest $request)
+	public function update(Article $article, Requests\ArticleRequest $request)
 	{
-        $article = Article::findOrFail($id);
         $article->update($request->all());
 
         return redirect('articles');

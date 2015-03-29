@@ -23,7 +23,7 @@ class Article extends Model {
      * de velden hier gedefinieerd worden als carbon instances opgehaald
      */
     protected $dates = [
-        'published_at'
+        'published_at' //$article->published_at->format('Y-m');
     ];
 
     public function scopePublished($query)
