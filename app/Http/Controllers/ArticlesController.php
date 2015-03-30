@@ -8,6 +8,7 @@ use Auth;
 
 use App\Article;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Session;
 
 class ArticlesController extends Controller {
 
@@ -73,14 +74,24 @@ class ArticlesController extends Controller {
 		//dd($input);
         //validation getriggered via Http/Requests/ArticleRequest.php functie rules()
 
+        /*
         $article = new Article($request->all()); //user_id wordt automatisch ingevuld op deze manier
         Auth::user()->articles()->save($article);
+        */
+        Auth::user()->articles()->create($request->all());
+
+        //Session::flash('flash_message', 'Your article has been created');
+        //session()->flash('flash_message', 'Your article has been created'); //helper functie ipv Session::flash
+        //session()->flash('flash_message_important', 'true');
 
         /*
         $request['user_id'] = Auth::id();
         Article::create($request->all());
         */
-		return redirect('articles');
+		return redirect('articles')->with([
+            'flash_message' => 'Your article has been created',
+            'flash_message_important' => true
+        ]);
 	}
 
 	/**
