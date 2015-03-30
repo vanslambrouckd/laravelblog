@@ -9,7 +9,7 @@
     @include ('errors.list')
 
 
-    {!! Form::open(['url' => 'articles']) !!}
+    {!! Form::model($article = new \App\Article, ['url' => 'articles']) !!}
         @include ('articles.form', ['articleDate' => date('Y-m-d'), 'submitButtonText' => 'Add Article'])
     {!! Form::Close() !!}
 
