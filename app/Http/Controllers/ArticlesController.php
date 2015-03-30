@@ -39,7 +39,9 @@ class ArticlesController extends Controller {
 
 		//$articles = Article::orderBy('published_at', 'desc')->where('published_at', '<=', Carbon::now())->get();
         $articles = Article::latest('published_at')->published()->get();
-		return view('articles.index', compact('articles'));
+        $latest = Article::latest()->first();
+
+		return view('articles.index', compact('articles', 'latest'));
 	}
 
 	/**

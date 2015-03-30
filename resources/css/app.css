@@ -6229,6 +6229,9 @@ button.close {
 .home {
   color: red;
 }
+body {
+  padding-top: 90px;
+}
 body,
 label,
 .checkbox label {

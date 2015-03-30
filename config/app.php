@@ -146,6 +146,8 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+        'App\Providers\ViewComposerServiceProvider',
+
         'Laracasts\Flash\FlashServiceProvider', //installeren via composer require laracasts/flash
 
         //extra
