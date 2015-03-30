@@ -1,5 +1,5 @@
 var elixir = require('laravel-elixir');
-
+process.env.DISABLE_NOTIFIER = true; //omdat  gulp-notify: [Error in notifier] Error in plugin 'gulp-notify' op windows
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -12,5 +12,32 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.less('app.less');
+    /*
+    cli: gulp watch
+    cli: gulp tdd (voor phpunit)
+     */
+    //via CLI gulp --production zet je minify aan
+    mix.less('app.less').coffee();
+    /*
+     webserver kan file cache hebben,
+     via .version() leg je cachebuster aan, zorgt dat caching van files afligt op de server
+     output is public/build/css/output + identifier.css
+     in de view gebruik je dan href="{{ elixir('css/output.css') }}" om de unieke output css te linken
+     */
+    mix.version('public/css/app.css');
+    mix.phpUnit().phpSpec();
+
+    /*
+    mix.styles([
+        'normalize.css',
+        'app.css'
+    ], $outPutDir.$filename, $sourceDir); //concat files
+
+    //idem voor
+    mix.scripts([
+    ]);
+
+    mix.phpUnit();
+    */
+    //mix.sass('app.scss').coffee();
 });

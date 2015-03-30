@@ -11,6 +11,9 @@
 |
 */
 
+Route::get('/', function() {
+   return 'Home page';
+});
 Route::get('/', 'WelcomeController@index');
 //Route::get('/', ['middleware' => 'auth', 'uses' => 'WelcomeController@index']); //zo kan je ook middleware assignen (ipv in controller constructor)
 
