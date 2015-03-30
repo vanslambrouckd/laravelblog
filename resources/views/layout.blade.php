@@ -55,7 +55,9 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
         <script>
-            $('div.alert').not('.alert-important').delay(3000).slideUp();
+            $('#flash-overlay-modal').modal();
+            //$('div.alert').not('.alert-important').delay(3000).slideUp();
+
         </script>
 
          <script type="text/javascript">

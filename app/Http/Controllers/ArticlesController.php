@@ -98,7 +98,8 @@ class ArticlesController extends Controller {
         */
 
         //FLASH MANIER 3
-        flash()->success('Your article has been created');
+        //flash()->success('Your article has been created');
+        flash()->overlay('Your article has been created', 'Good job');
         return redirect('articles');
     }
 
