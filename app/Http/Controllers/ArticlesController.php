@@ -3,6 +3,7 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use App\Tag;
 use Illuminate\Http\Request;
 use Auth;
 
@@ -53,7 +54,9 @@ class ArticlesController extends Controller {
             return redirect('articles');
         }
         */
-		return view('articles.create');
+        $tags = Tag::lists('name', 'id');
+
+		return view('articles.create', compact('tags'));
 	}
 
     /**
@@ -78,7 +81,7 @@ class ArticlesController extends Controller {
         $article = new Article($request->all()); //user_id wordt automatisch ingevuld op deze manier
         Auth::user()->articles()->save($article);
         */
-        Auth::user()->articles()->create($request->all());
+        $article = Auth::user()->articles()->create($request->all());
         /*
        $request['user_id'] = Auth::id();
        Article::create($request->all());
@@ -99,6 +102,12 @@ class ArticlesController extends Controller {
 
         //FLASH MANIER 3
         //flash()->success('Your article has been created');
+
+        //many to many relation article en tag
+        //$tagIds = $request->input('tags');
+        $article->tags()->attach($request->input('tag_list'));
+
+
         flash()->overlay('Your article has been created', 'Good job');
         return redirect('articles');
     }
@@ -128,7 +137,9 @@ class ArticlesController extends Controller {
 	{
         $article->published_at->setToStringFormat('Y-m-d');
 
-        return view('articles.edit', compact('article'));
+        $tags = Tag::lists('name', 'id');
+
+        return view('articles.edit', compact('article', 'tags'));
 	}
 
 	/**
@@ -140,6 +151,8 @@ class ArticlesController extends Controller {
 	public function update(Article $article, Requests\ArticleRequest $request)
 	{
         $article->update($request->all());
+
+        $article->tags()->attach($request->input('tag_list'));
 
         return redirect('articles');
     }

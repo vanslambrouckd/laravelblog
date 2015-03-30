@@ -22,7 +22,7 @@
             @foreach($articles as $article)
                 <tr>
                     <td><input type="checkbox" /></td>
-                    <td>{{ $article->title }}</td>
+                    <td><a href="{{ action('ArticlesController@show', [$article->id]) }}">{{ $article->title }}</a></td>
                     <td>
                         <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Edit" href="{{ action('ArticlesController@edit', [$article->id]) }}"><span class="glyphicon glyphicon-pencil"></span></a>
                     </td>
