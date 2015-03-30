@@ -33,15 +33,18 @@ class RouteServiceProvider extends ServiceProvider {
          * ondertaande zort dat je ArticlesController\show(Article $article) kan uitvoeren
          * ipv id door te geven
          */
-        $router->model('articles', 'App\Article'); //find($id)
+        //$router->model('articles', 'App\Article'); //find($id)
 
         //indien je iets anders dan find via id wil:
-        /*
+
         $router->bind('articles', function($id) {
             return \App\Article::published()->findOrFail($id);
         });
-        */
-		//
+
+
+        $router->bind('tags', function($name) {
+            return \App\Tag::where('name', $name)->firstOrFail();
+        });
 	}
 
 	/**

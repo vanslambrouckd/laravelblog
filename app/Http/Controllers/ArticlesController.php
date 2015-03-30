@@ -29,6 +29,7 @@ class ArticlesController extends Controller {
 	 */
 	public function index()
 	{
+
         if (!Auth::guest()) {
             //return \Auth::user(); //toont authenticated user
         }

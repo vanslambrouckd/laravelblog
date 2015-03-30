@@ -46,3 +46,5 @@ Route::get('managerslist', ['middleware' => 'manager', function() {
      */
     return 'this page may only be viewed by managers (check using middleware)';
 }]);
+
+Route::get('tags/{tags}', 'TagsController@show');
