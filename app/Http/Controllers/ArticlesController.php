@@ -81,7 +81,7 @@ class ArticlesController extends Controller {
         $article = new Article($request->all()); //user_id wordt automatisch ingevuld op deze manier
         Auth::user()->articles()->save($article);
         */
-        $article = Auth::user()->articles()->create($request->all());
+
         /*
        $request['user_id'] = Auth::id();
        Article::create($request->all());
@@ -101,12 +101,11 @@ class ArticlesController extends Controller {
         */
 
         //FLASH MANIER 3
-        //flash()->success('Your article has been created');
+        //flash()->suchowcess('Your article has been created');
 
         //many to many relation article en tag
         //$tagIds = $request->input('tags');
-        $article->tags()->attach($request->input('tag_list'));
-
+        $this->createArticle($request);
 
         flash()->overlay('Your article has been created', 'Good job');
         return redirect('articles');
@@ -152,7 +151,8 @@ class ArticlesController extends Controller {
 	{
         $article->update($request->all());
 
-        $article->tags()->attach($request->input('tag_list'));
+        //sync (ipv attach / detach) zorgt dat er geen duplicate article_id & tag_ids zijn
+        $this->syncTags($article, $request->input('tag_list'));
 
         return redirect('articles');
     }
@@ -167,5 +167,23 @@ class ArticlesController extends Controller {
 	{
 		//
 	}
+
+    /**
+     * @param Article $article
+     * @param Requests\ArticleRequest $request
+     */
+    private function syncTags(Article $article, Array $tags)
+    {
+        $article->tags()->sync($tags);
+    }
+
+    /**
+     * @param Requests\ArticleRequest $request
+     */
+    private function createArticle(Requests\ArticleRequest $request)
+    {
+        $article = Auth::user()->articles()->create($request->all());
+        $this->syncTags($article, $request->input('tag_list'));
+    }
 
 }
