@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <title>Laravel blog test</title>
-        <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('/css/all.css') }}" rel="stylesheet">
 
         <!-- Fonts -->
         <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
@@ -14,6 +14,9 @@
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <!--<![endif]-->
+        <!--
+        <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-rc.2/css/select2.min.css" rel="stylesheet" />
+        -->
         <style type="text/css">
         body {
             padding-top:50px;
@@ -47,12 +50,11 @@
             @include('flash::message')
 
             @yield('content')
-            <footer>
-                @yield('footer')
-            </footer>
         </div>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="{{ asset('/js/all.js') }}"></script>
+
+
+        @yield('footer')
 
         <script>
             $('#flash-overlay-modal').modal();

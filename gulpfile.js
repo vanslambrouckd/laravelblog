@@ -17,14 +17,25 @@ elixir(function(mix) {
     cli: gulp tdd (voor phpunit)
      */
     //via CLI gulp --production zet je minify aan
-    mix.less('app.less').coffee();
+    mix.less('app.less', 'resources/css').coffee();
+
+    mix.styles([
+        'app.css',
+        'libs/select2.min.css'
+    ]);
+
+    mix.scripts([
+       'libs/jquery.min.js',
+        'libs/bootstrap.min.js',
+        'libs/select2.min.js'
+    ]);
     /*
      webserver kan file cache hebben,
      via .version() leg je cachebuster aan, zorgt dat caching van files afligt op de server
      output is public/build/css/output + identifier.css
      in de view gebruik je dan href="{{ elixir('css/output.css') }}" om de unieke output css te linken
      */
-    mix.version('public/css/app.css');
+    //mix.version('public/css/app.css');
     mix.phpUnit().phpSpec();
 
     /*
