@@ -44,7 +44,7 @@
             </nav>
 
         <div class="container">
-            @include('partials.flash')
+            @include('flash::message')
 
             @yield('content')
             <footer>

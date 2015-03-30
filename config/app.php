@@ -146,6 +146,8 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+        'Laracasts\Flash\FlashServiceProvider', //installeren via composer require laracasts/flash
+
         //extra
         'Laracasts\Generators\GeneratorsServiceProvider'
 
@@ -197,7 +199,8 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
 		'Form'		=> 'Illuminate\Html\FormFacade',
-		'Html'		=> 'Illuminate\Html\HtmlFacade'		
+		'Html'		=> 'Illuminate\Html\HtmlFacade',
+        'Flash'     => 'Laracasts\Flash\Flash'
 	],
 
 ];

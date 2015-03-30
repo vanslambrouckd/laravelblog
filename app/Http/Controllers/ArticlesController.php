@@ -79,20 +79,28 @@ class ArticlesController extends Controller {
         Auth::user()->articles()->save($article);
         */
         Auth::user()->articles()->create($request->all());
+        /*
+       $request['user_id'] = Auth::id();
+       Article::create($request->all());
+       */
 
+        //FLASH MANIER 1
         //Session::flash('flash_message', 'Your article has been created');
         //session()->flash('flash_message', 'Your article has been created'); //helper functie ipv Session::flash
         //session()->flash('flash_message_important', 'true');
 
+        //FLASH MANIER 2
         /*
-        $request['user_id'] = Auth::id();
-        Article::create($request->all());
-        */
 		return redirect('articles')->with([
             'flash_message' => 'Your article has been created',
             'flash_message_important' => true
         ]);
-	}
+        */
+
+        //FLASH MANIER 3
+        flash()->success('Your article has been created');
+        return redirect('articles');
+    }
 
 	/**
 	 * Display the specified resource.
