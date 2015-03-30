@@ -152,7 +152,7 @@ class ArticlesController extends Controller {
         $article->update($request->all());
 
         //sync (ipv attach / detach) zorgt dat er geen duplicate article_id & tag_ids zijn
-        $this->syncTags($article, $request->input('tag_list'));
+        $this->syncTags($article, (array)$request->input('tag_list'));
 
         return redirect('articles');
     }
@@ -183,7 +183,8 @@ class ArticlesController extends Controller {
     private function createArticle(Requests\ArticleRequest $request)
     {
         $article = Auth::user()->articles()->create($request->all());
-        $this->syncTags($article, $request->input('tag_list'));
+
+        $this->syncTags($article, (array)$request->input('tag_list'));
     }
 
 }
